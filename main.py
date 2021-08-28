@@ -22,18 +22,6 @@ l(1)
 print(bcolors.RED + "enjoy informations gathering")
 l(2)
 
-print(bcolors.GREEN +'''        --------------------------------------------------------------------------
-        | port hint------------> just for make you remind some data              |
-        | port 22 --> ssh connections                                            |
-        | port 80 --> http,web page , web site , defult of browser               |
-        | port 8080 --> https,encrypted data, web site                           |
-        | port 443 --> android device and android port                           |
-        | port 445 --> SMB port windows device windows port                      |
-        | port 4444 --> most listening port for hackers and scammers             |
-        | port 5555 --> adb server port and maby android bugs                    |
-        --------------------------------------------------------------------------
-        ''')
-
 def check_ip(ip):
     try:
         IP(ip)
